@@ -1,0 +1,175 @@
+ *{
+    margin: 0;
+    font-family:arial bold;
+    border:boder-box;
+
+}
+.navbar {
+         height: 70px;
+         background-color: black;
+         color: beige;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg");
+    height: 55px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 6px solid transparent;
+}
+
+.border:hover {
+    border: 6px solid white;
+    height: 40;
+    width: 80;
+}
+/** box2 **/
+.add-first{
+    color:antiquewhite;
+    font-size: 0.90rem;
+    margin-left: 50px;
+
+}
+.add-second{
+    color: burlywood;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: coral;
+    width: 800px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: khaki;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size:1.3;
+    background-color: darkslategrey;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color:bisque;
+}
+.nav-search:hover{
+       border:2px solid orange;
+}
+/**box4**/
+.nav-cart i {
+    font-size:40px;
+}
+
+/**box5**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**pane**/
+.panel{
+    height:50px;
+    background-color: darkred;
+    display: flex;
+    color: azure;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 15px;
+}
+.panel ops{
+    width: 70%;
+    font-size: 0.85;
+
+ }
+ .panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+ }
+ /**hero-section**/
+ .hero-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o48HRkLuI7gDUsquhADiZF4i7V7G3x0YUA&s");
+    height: 700px;
+    background-size: cover;
+}
+/**shop-section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.box{
+    border:2px solid black;
+    height: 350px;
+    width:30%;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height:300px;
+}
+.box1{
+    border:2px solid black;
+    height: 350px;
+    width:30%;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height:300px;
+}
+.box2{
+    border:2px solid black;
+    height: 350px;
+    width:30%;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height:300px;
+}
+.box3{
+    border:2px solid black;
+    height: 350px;
+    width:30%;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height:300px;
+}
